@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/Git/Projects/VoxelEngine/external/spdlog/CMakeLists.txt
+  spdlog.cpp
+  stdout_sinks.cpp
+  color_sinks.cpp
+  file_sinks.cpp
+  async.cpp
+  cfg.cpp
+  bundled_fmtlib_format.cpp
+  spdlog.vcxproj -> C:\Git\Projects\VoxelEngine\build\VoxelEngineCore\spdlog\Debug\spdlogd.lib

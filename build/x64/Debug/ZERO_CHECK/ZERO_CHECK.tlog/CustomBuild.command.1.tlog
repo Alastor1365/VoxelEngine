@@ -1,0 +1,10 @@
+^C:\GIT\PROJECTS\VOXELENGINE\BUILD\CMAKEFILES\11B123250DE4690EFAEBBE4553DBDC5E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/Projects/VoxelEngine -BC:/Git/Projects/VoxelEngine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Git/Projects/VoxelEngine/build/Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

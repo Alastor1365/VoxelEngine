@@ -1,11 +1,16 @@
 #include "VoxelEngineCore/Application.hpp"
-#include "GLFW/glfw3.h"
+#include "VoxelEngineCore/Log.hpp"
+#include <GLFW/glfw3.h>
+#include <spdlog/spdlog.h>
 
 namespace VoxelEngine
 {
 	Application::Application()
 	{
-
+        Log_info("Hello");
+        Log_error("Error 404");
+        Log_warn("LL");
+        Log_crit("Crit");
 	}
 
 	Application::~Application()

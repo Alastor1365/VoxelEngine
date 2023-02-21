@@ -185,6 +185,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{3D7C7017-CFE3-3834-AEBF-FF984442DB8C}</Project>
       <Name>glfw</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Git\Projects\VoxelEngine\build\VoxelEngineCore\spdlog\spdlog.vcxproj">
+      <Project>{0279C5D7-EB40-3056-A6CD-9B7B319C5362}</Project>
+      <Name>spdlog</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
