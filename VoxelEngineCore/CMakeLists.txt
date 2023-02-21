@@ -2,9 +2,17 @@ cmake_minimum_required(VERSION 3.12)
 
 set(ENGINE_PROJECT_NAME VoxelEngineCore)
 
+set(ENGINE_PUBLIC_INCLUDES
+	includes/VoxelEngineCore/Application.hpp
+)
+
+set(ENGINE_PRIVATE_SOURCES
+	src/VoxelEngineCore/Application.cpp
+)
+
 add_library(${ENGINE_PROJECT_NAME} STATIC
-	src/VoxelEngineCore/Utils/test.cpp
-	includes/VoxelEngineCore/Utils/test.hpp
+	${ENGINE_PUBLIC_INCLUDES}
+	${ENGINE_PRIVATE_SOURCES}
 )
 
 target_include_directories(${ENGINE_PROJECT_NAME} PUBLIC includes)

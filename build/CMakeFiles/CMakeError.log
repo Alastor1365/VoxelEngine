@@ -1,12 +1,12 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: C:/Git/Projects/VoxelEngine/build/CMakeFiles/CMakeScratch/TryCompile-inerb8
+Change Dir: C:/Git/Projects/VoxelEngine/build/CMakeFiles/CMakeScratch/TryCompile-x8jqtz
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_93615.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6f5a9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
   Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31937 для x64
   (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
   src.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93615.dir\Debug\\" /Fd"cmTC_93615.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-inerb8\src.c"
-C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-inerb8\src.c(1,10): fatal  error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-inerb8\cmTC_93615.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f5a9.dir\Debug\\" /Fd"cmTC_6f5a9.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-x8jqtz\src.c"
+C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-x8jqtz\src.c(1,10): fatal  error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-x8jqtz\cmTC_6f5a9.vcxproj]
 
 
 Source file was:
@@ -32,26 +32,26 @@ int main(void)
 
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: C:/Git/Projects/VoxelEngine/build/CMakeFiles/CMakeScratch/TryCompile-gp7xpc
+Change Dir: C:/Git/Projects/VoxelEngine/build/CMakeFiles/CMakeScratch/TryCompile-qc0mue
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dcaa3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_61b73.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
   Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31937 для x64
   (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
   CheckFunctionExists.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dcaa3.dir\Debug\\" /Fd"cmTC_dcaa3.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-gp7xpc\CheckFunctionExists.c"
-LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-gp7xpc\cmTC_dcaa3.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61b73.dir\Debug\\" /Fd"cmTC_61b73.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-qc0mue\CheckFunctionExists.c"
+LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-qc0mue\cmTC_61b73.vcxproj]
 
 
 
 Determining if the function pthread_create exists in the pthread failed with the following output:
-Change Dir: C:/Git/Projects/VoxelEngine/build/CMakeFiles/CMakeScratch/TryCompile-r9w1v8
+Change Dir: C:/Git/Projects/VoxelEngine/build/CMakeFiles/CMakeScratch/TryCompile-3jlvgw
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_98ccd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8b071.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
   Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31937 для x64
   (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
   CheckFunctionExists.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_98ccd.dir\Debug\\" /Fd"cmTC_98ccd.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-r9w1v8\CheckFunctionExists.c"
-LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-r9w1v8\cmTC_98ccd.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8b071.dir\Debug\\" /Fd"cmTC_8b071.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-3jlvgw\CheckFunctionExists.c"
+LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-3jlvgw\cmTC_8b071.vcxproj]
 
 
 

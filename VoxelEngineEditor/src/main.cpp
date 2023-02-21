@@ -1,8 +1,22 @@
 #include<iostream>
-#include "VoxelEngineCore/Utils/test.hpp"
+#include<memory>
+#include "VoxelEngineCore/Application.hpp"
+
+class MyApp : public VoxelEngine::Application
+{
+	virtual void on_update() override
+	{
+		std::cout << "Update frame: " << frame++ << std::endl;
+	}
+
+	unsigned int frame = 0;
+};
 
 int main()
 {
-	std::cout << "Hello from Editor" << std::endl;
-	VoxelEngine::CreateWindow();
+	auto myApp = std::make_unique<MyApp>();
+
+	int returnCode = myApp->start(600, 600, "VoxelEngine");
+
+	return returnCode;
 }

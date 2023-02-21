@@ -269,8 +269,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Git\Projects\VoxelEngine\VoxelEngineCore\src\VoxelEngineCore\Utils\test.cpp" />
-    <ClInclude Include="C:\Git\Projects\VoxelEngine\VoxelEngineCore\includes\VoxelEngineCore\Utils\test.hpp" />
+    <ClInclude Include="C:\Git\Projects\VoxelEngine\VoxelEngineCore\includes\VoxelEngineCore\Application.hpp" />
+    <ClCompile Include="C:\Git\Projects\VoxelEngine\VoxelEngineCore\src\VoxelEngineCore\Application.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Git\Projects\VoxelEngine\build\ZERO_CHECK.vcxproj">

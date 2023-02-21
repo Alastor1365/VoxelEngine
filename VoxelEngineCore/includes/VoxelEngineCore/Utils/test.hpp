@@ -1,4 +1,0 @@
-namespace VoxelEngine
-{
-	int CreateWindow();
-}
