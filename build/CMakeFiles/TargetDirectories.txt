@@ -1,0 +1,4 @@
+C:/Git/Projects/VoxelGameEngine/build/CMakeFiles/ALL_BUILD.dir
+C:/Git/Projects/VoxelGameEngine/build/CMakeFiles/ZERO_CHECK.dir
+C:/Git/Projects/VoxelGameEngine/build/VoxelEngineCore/CMakeFiles/VoxelEngineCore.dir
+C:/Git/Projects/VoxelGameEngine/build/VoxelEngineEditor/CMakeFiles/VoxelEngineEditor.dir

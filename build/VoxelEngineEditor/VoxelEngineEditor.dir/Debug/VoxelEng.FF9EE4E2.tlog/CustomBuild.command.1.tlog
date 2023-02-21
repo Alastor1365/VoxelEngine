@@ -1,0 +1,10 @@
+^C:\GIT\PROJECTS\VOXELGAMEENGINE\VOXELENGINEEDITOR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/Projects/VoxelGameEngine -BC:/Git/Projects/VoxelGameEngine/build --check-stamp-file C:/Git/Projects/VoxelGameEngine/build/VoxelEngineEditor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
