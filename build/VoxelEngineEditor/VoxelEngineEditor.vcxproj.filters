@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Git\Projects\VoxelGameEngine\VoxelEngineEditor\src\main.cpp">
+    <ClCompile Include="C:\Git\Projects\VoxelEngine\VoxelEngineEditor\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Git\Projects\VoxelGameEngine\VoxelEngineEditor\CMakeLists.txt" />
+    <CustomBuild Include="C:\Git\Projects\VoxelEngine\VoxelEngineEditor\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A76EF869-F0F1-3A82-A409-F898178A1AEF}</UniqueIdentifier>
+      <UniqueIdentifier>{086A45F6-1B7E-36B7-8FD0-7607E44E882E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

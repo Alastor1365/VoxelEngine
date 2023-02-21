@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Git\Projects\VoxelGameEngine\build\CMakeFiles\741680376928c5c17354c63781fca9a7\generate.stamp.rule">
+    <CustomBuild Include="C:\Git\Projects\VoxelEngine\build\CMakeFiles\11b123250de4690efaebbe4553dbdc5e\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{F8BB699C-2A70-3595-81E6-A8921D93EDC3}</UniqueIdentifier>
+      <UniqueIdentifier>{AABB6470-3345-387E-8DF3-4BAFC05F066B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

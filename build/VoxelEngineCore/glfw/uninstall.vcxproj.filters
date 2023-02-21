@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Git\Projects\VoxelEngine\build\CMakeFiles\97a217acce1638b1e85372eb23d100b7\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\Projects\VoxelEngine\external\glfw\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Git\Projects\VoxelEngine\build\VoxelEngineCore\glfw\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AABB6470-3345-387E-8DF3-4BAFC05F066B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Git/Projects/VoxelGameEngine/VoxelEngineEditor
+# Install script for directory: C:/Git/Projects/VoxelEngine/VoxelEngineEditor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

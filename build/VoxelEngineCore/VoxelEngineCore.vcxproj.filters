@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Git\Projects\VoxelGameEngine\VoxelEngineCore\src\VoxelEngineCore\Utils\test.cpp">
+    <ClCompile Include="C:\Git\Projects\VoxelEngine\VoxelEngineCore\src\VoxelEngineCore\Utils\test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Git\Projects\VoxelGameEngine\VoxelEngineCore\includes\VoxelEngineCore\Utils\test.hpp">
+    <ClInclude Include="C:\Git\Projects\VoxelEngine\VoxelEngineCore\includes\VoxelEngineCore\Utils\test.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Git\Projects\VoxelGameEngine\VoxelEngineCore\CMakeLists.txt" />
+    <CustomBuild Include="C:\Git\Projects\VoxelEngine\VoxelEngineCore\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{2AA1A2E2-2ED1-3E8F-9CEC-B9D3E185AE2A}</UniqueIdentifier>
+      <UniqueIdentifier>{474C314E-6C4B-38C3-9F40-4A6A6D357A3C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A76EF869-F0F1-3A82-A409-F898178A1AEF}</UniqueIdentifier>
+      <UniqueIdentifier>{086A45F6-1B7E-36B7-8FD0-7607E44E882E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

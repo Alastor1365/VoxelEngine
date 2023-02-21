@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Git\Projects\VoxelEngine\build\CMakeFiles\d9afdfc41f31a46ed92d754233a01598\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\Projects\VoxelEngine\external\glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Git\Projects\VoxelEngine\external\glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Git\Projects\VoxelEngine\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Git\Projects\VoxelEngine\build\VoxelEngineCore\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AABB6470-3345-387E-8DF3-4BAFC05F066B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{474C314E-6C4B-38C3-9F40-4A6A6D357A3C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

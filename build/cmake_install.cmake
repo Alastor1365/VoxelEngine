@@ -1,4 +1,4 @@
-# Install script for directory: C:/Git/Projects/VoxelGameEngine
+# Install script for directory: C:/Git/Projects/VoxelEngine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Git/Projects/VoxelGameEngine/build/VoxelEngineCore/cmake_install.cmake")
-  include("C:/Git/Projects/VoxelGameEngine/build/VoxelEngineEditor/cmake_install.cmake")
+  include("C:/Git/Projects/VoxelEngine/build/VoxelEngineCore/cmake_install.cmake")
+  include("C:/Git/Projects/VoxelEngine/build/VoxelEngineEditor/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Git/Projects/VoxelGameEngine/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Git/Projects/VoxelEngine/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
