@@ -181,6 +181,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{A20D9141-330A-3173-B2E8-AE59D2B4F40F}</Project>
       <Name>VoxelEngineEditor</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Git\Projects\VoxelEngine\build\VoxelEngineCore\glad\glad.vcxproj">
+      <Project>{5510170F-8687-3665-B133-64E1B63DE92D}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Git\Projects\VoxelEngine\build\VoxelEngineCore\glfw\src\glfw.vcxproj">
       <Project>{3D7C7017-CFE3-3834-AEBF-FF984442DB8C}</Project>
       <Name>glfw</Name>

@@ -1,7 +1,8 @@
 #include "VoxelEngineCore/Application.hpp"
 #include "VoxelEngineCore/Log.hpp"
+
+#include "glad/glad.h"
 #include <GLFW/glfw3.h>
-#include <spdlog/spdlog.h>
 
 namespace VoxelEngine
 {
@@ -37,11 +38,21 @@ namespace VoxelEngine
         /* Make the window's context current */
         glfwMakeContextCurrent(window);
 
+
+        //glad inicialization
+        if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
+        {
+            Log_crit("Failed to initialize GLAD");
+            return -1;
+        }
+
+        glClearColor(1, 0, 0, 0);
+
         /* Loop until the user closes the window */
         while (!glfwWindowShouldClose(window))
         {
             /* Render here */
-            //glClear(GL_COLOR_BUFFER_BIT);
+            glClear(GL_COLOR_BUFFER_BIT);
 
             /* Swap front and back buffers */
             glfwSwapBuffers(window);

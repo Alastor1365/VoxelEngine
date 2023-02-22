@@ -12,5 +12,8 @@ C:/Git/Projects/VoxelEngine/build/VoxelEngineCore/glfw/src/CMakeFiles/INSTALL.di
 C:/Git/Projects/VoxelEngine/build/VoxelEngineCore/spdlog/CMakeFiles/spdlog.dir
 C:/Git/Projects/VoxelEngine/build/VoxelEngineCore/spdlog/CMakeFiles/INSTALL.dir
 C:/Git/Projects/VoxelEngine/build/VoxelEngineCore/spdlog/CMakeFiles/ALL_BUILD.dir
+C:/Git/Projects/VoxelEngine/build/VoxelEngineCore/glad/CMakeFiles/glad.dir
+C:/Git/Projects/VoxelEngine/build/VoxelEngineCore/glad/CMakeFiles/INSTALL.dir
+C:/Git/Projects/VoxelEngine/build/VoxelEngineCore/glad/CMakeFiles/ALL_BUILD.dir
 C:/Git/Projects/VoxelEngine/build/VoxelEngineEditor/CMakeFiles/VoxelEngineEditor.dir
 C:/Git/Projects/VoxelEngine/build/VoxelEngineEditor/CMakeFiles/INSTALL.dir
