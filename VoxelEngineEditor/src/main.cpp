@@ -16,7 +16,7 @@ int main()
 {
 	auto myApp = std::make_unique<MyApp>();
 
-	int returnCode = myApp->start(1000, 800, "VoxelEngine");
+	int returnCode = myApp->start(1000, 500, "VoxelEngine");
 
 	return returnCode;
 }

@@ -5,6 +5,7 @@ set(ENGINE_PROJECT_NAME VoxelEngineCore)
 set(ENGINE_PUBLIC_INCLUDES
 	includes/VoxelEngineCore/Application.hpp
 	includes/VoxelEngineCore/Log.hpp
+	includes/VoxelEngineCore/Event.hpp
 )
 
 set(ENGINE_PRIVATE_INCLUDES

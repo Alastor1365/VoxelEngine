@@ -9,9 +9,7 @@ namespace VoxelEngine
     static bool s_GLFW_inicialized = false;
 
 	Window::Window(std::string title, const unsigned int width, const unsigned int height)
-		: m_title(std::move(title))
-		, m_width(width)
-		, m_height(height)
+		: m_data({std::move(title), width, height})
 	{
 		int resultCode = init();
 	}
@@ -23,7 +21,7 @@ namespace VoxelEngine
 
 	int Window::init()
 	{
-        Log_info("Creating window '{0}' width size {1}x{2}", m_title, m_width, m_height);
+        Log_info("Creating window '{0}' width size {1}x{2}", m_data.title, m_data.width, m_data.height);
 
         if (!s_GLFW_inicialized)
         {
@@ -37,10 +35,10 @@ namespace VoxelEngine
         }
 
         /* Create a windowed mode window and its OpenGL context */
-        m_pWindow = glfwCreateWindow(m_width, m_height, m_title.c_str(), nullptr, nullptr);
+        m_pWindow = glfwCreateWindow(m_data.width, m_data.height, m_data.title.c_str(), nullptr, nullptr);
         if (!m_pWindow)
         {
-            Log_crit("Can,t create window {0} width size {1}x{2}", m_title, m_width, m_height);
+            Log_crit("Can,t create window {0} width size {1}x{2}", m_data.title, m_data.width, m_data.height);
             glfwTerminate();
             return -2;
         }
@@ -52,6 +50,30 @@ namespace VoxelEngine
             Log_crit("Failed to initialize GLAD");
             return -3;
         }
+
+        glfwSetWindowUserPointer(m_pWindow, &m_data);
+
+        glfwSetWindowSizeCallback(m_pWindow,
+            [](GLFWwindow* pWindow, int width, int height)
+            {
+                WindowData& data = *static_cast<WindowData*>(glfwGetWindowUserPointer(pWindow));
+                data.width = width;
+                data.height = height;
+
+                EventWindowResize event(width, height);
+                data.eventCallbackFn(event);
+            }
+        );
+
+        glfwSetCursorPosCallback(m_pWindow,
+            [](GLFWwindow* pWindow, double x, double y)
+            {
+                WindowData& data = *static_cast<WindowData*>(glfwGetWindowUserPointer(pWindow));
+                
+                EventMouseMoved event(x, y);
+                data.eventCallbackFn(event);
+            }
+        );
 
         return 0;
 	}

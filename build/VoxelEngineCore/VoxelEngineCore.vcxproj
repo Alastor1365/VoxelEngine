@@ -271,6 +271,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClInclude Include="C:\Git\Projects\VoxelEngine\VoxelEngineCore\includes\VoxelEngineCore\Application.hpp" />
     <ClInclude Include="C:\Git\Projects\VoxelEngine\VoxelEngineCore\includes\VoxelEngineCore\Log.hpp" />
+    <ClInclude Include="C:\Git\Projects\VoxelEngine\VoxelEngineCore\includes\VoxelEngineCore\Event.hpp" />
     <ClInclude Include="C:\Git\Projects\VoxelEngine\VoxelEngineCore\src\VoxelEngineCore\Window.hpp" />
     <ClCompile Include="C:\Git\Projects\VoxelEngine\VoxelEngineCore\src\VoxelEngineCore\Application.cpp" />
     <ClCompile Include="C:\Git\Projects\VoxelEngine\VoxelEngineCore\src\VoxelEngineCore\Window.cpp" />

@@ -7,7 +7,7 @@ Id flags:
 The output was:
 0
 MSBuild version 17.4.1+9a89d02ff for .NET Framework
-Сборка начата 22.02.2023 16:54:19.
+Сборка начата 24.02.2023 20:22:43.
 Проект "C:\Git\Projects\VoxelEngine\build\CMakeFiles\3.25.2\CompilerIdC\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
 PrepareForBuild:
   Создание каталога "Debug\".
@@ -33,7 +33,7 @@ FinalizeBuildStatus:
     Предупреждений: 0
     Ошибок: 0
 
-Прошло времени 00:00:02.53
+Прошло времени 00:00:01.39
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -50,7 +50,7 @@ Id flags:
 The output was:
 0
 MSBuild version 17.4.1+9a89d02ff for .NET Framework
-Сборка начата 22.02.2023 16:54:22.
+Сборка начата 24.02.2023 20:22:46.
 Проект "C:\Git\Projects\VoxelEngine\build\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
 PrepareForBuild:
   Создание каталога "Debug\".
@@ -76,7 +76,7 @@ FinalizeBuildStatus:
     Предупреждений: 0
     Ошибок: 0
 
-Прошло времени 00:00:02.32
+Прошло времени 00:00:00.92
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -86,26 +86,26 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 The CXX compiler identification is MSVC, found in "C:/Git/Projects/VoxelEngine/build/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Git/Projects/VoxelEngine/build/CMakeFiles/CMakeScratch/TryCompile-swuxml
+Change Dir: C:/Git/Projects/VoxelEngine/build/CMakeFiles/CMakeScratch/TryCompile-g9szpx
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_87135.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_08e16.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
   Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31937 для x64
-  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
   CMakeCCompilerABI.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_87135.dir\Debug\\" /Fd"cmTC_87135.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c"
-  cmTC_87135.vcxproj -> C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-swuxml\Debug\cmTC_87135.exe
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08e16.dir\Debug\\" /Fd"cmTC_08e16.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c"
+  cmTC_08e16.vcxproj -> C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-g9szpx\Debug\cmTC_08e16.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Git/Projects/VoxelEngine/build/CMakeFiles/CMakeScratch/TryCompile-92xoxa
+Change Dir: C:/Git/Projects/VoxelEngine/build/CMakeFiles/CMakeScratch/TryCompile-sn4u3a
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2ebea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bd7ee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
   Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31937 для x64
-  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
   CMakeCXXCompilerABI.cpp
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2ebea.dir\Debug\\" /Fd"cmTC_2ebea.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_2ebea.vcxproj -> C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-92xoxa\Debug\cmTC_2ebea.exe
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bd7ee.dir\Debug\\" /Fd"cmTC_bd7ee.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_bd7ee.vcxproj -> C:\Git\Projects\VoxelEngine\build\CMakeFiles\CMakeScratch\TryCompile-sn4u3a\Debug\cmTC_bd7ee.exe
 
 
 
