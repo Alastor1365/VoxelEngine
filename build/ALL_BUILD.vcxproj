@@ -173,6 +173,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="C:\Git\Projects\VoxelEngine\build\VoxelEngineCore\ImGui.vcxproj">
+      <Project>{6A3E742C-4FBA-3A2C-B5CE-77DD03DC7F6A}</Project>
+      <Name>ImGui</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Git\Projects\VoxelEngine\build\VoxelEngineCore\VoxelEngineCore.vcxproj">
       <Project>{F40BB329-2BC5-3A8A-AAE1-154EDD95D248}</Project>
       <Name>VoxelEngineCore</Name>
