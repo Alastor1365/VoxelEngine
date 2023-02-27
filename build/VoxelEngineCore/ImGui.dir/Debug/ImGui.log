@@ -1,5 +1,4 @@
-﻿  Building Custom Rule C:/Git/Projects/VoxelEngine/VoxelEngineCore/CMakeLists.txt
-  imgui.cpp
+﻿  imgui.cpp
   imgui_impl_glfw.cpp
   imgui_impl_opengl3.cpp
   imgui_draw.cpp

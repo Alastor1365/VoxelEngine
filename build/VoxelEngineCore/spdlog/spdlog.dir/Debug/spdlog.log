@@ -1,5 +1,4 @@
-﻿  Building Custom Rule C:/Git/Projects/VoxelEngine/external/spdlog/CMakeLists.txt
-  spdlog.cpp
+﻿  spdlog.cpp
   stdout_sinks.cpp
   color_sinks.cpp
   file_sinks.cpp
